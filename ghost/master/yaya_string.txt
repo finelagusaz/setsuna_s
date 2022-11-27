@@ -26,7 +26,7 @@ On_sakura.portalsites_EX : array
 {
 	"SSP BUGTRQ	|	http://ssp.shillest.net/             | "
 	"C.R.O.W.	|	http://crow.aqrs.jp/                 | "
-	"うさださくら	|	http://usada.sakura.vg/"         | "
+	"うさださくら	|	http://usada.sakura.vg/          | "
 	"-		|	| "
 	"Encyclopedia of 伺か	|	http://dic.sstp.jp/      | "
 	"GHOST TOWN	|	http://ghosttown.mikage.jp/          | "

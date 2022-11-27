@@ -224,19 +224,19 @@ OnGhostChangedOther
 }
 
 //他のゴーストの呼び出しが完了
-OnGhostCallComplete
+OnGhostCallCompleteOther
 {
 	"\0\s[0]%reference[0]さんいらっしゃい。\e"
 }
 
 // 他のゴーストが終了
-OnOtherGhostClosed
+OnOtherGhostClosedOther
 {
 	"\0\s[0]さよなら。\e"
 }
 
 //他のゴーストから呼び出されたとき
-OnGhostCalled
+OnGhostCalledOther
 {
 	"\0\s[0]%reference[0]さんもいるの?\e"
 }

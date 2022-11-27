@@ -41,14 +41,7 @@ dic, yaya_mouse.txt			// マウス入力関連辞書
 dic, yaya_menu.txt			// メニュー処理辞書
 dic, yaya_etc.txt			// 種々のイベント辞書
 
-// ランダムトーク辞書、トークカテゴリ単位
-dicdir, talk/everyday
-dicdir, talk/everyday/autumn
-dicdir, talk/everyday/summer
-dicdir, talk/everyday/winter
-dicdir, talk/explain
-dicdir, talk/extreme_world
-dicdir, talk/impression
+dicdir, talk				// ランダムトーク辞書、トークカテゴリ単位
 
 //------------------------------------------------------------------------------
 //セーブファイル暗号化
