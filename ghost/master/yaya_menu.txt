@@ -189,13 +189,15 @@ Menu_PROFILE_Y
 		\s[1]……他に何を言えば良いのか思いつかないよ。\n/
 		\s[0]性格とかは見てればわかると思うし……。"
 		--
-		AYATEMPLATE.MenuItem("ハンドルは?",Menu_HANDLE)
+		AYATEMPLATE.MenuItem("ハンドルは?","Menu_HANDLE")
 		--
-		AYATEMPLATE.MenuItem("戻る","OpenMenu",150)
+		AYATEMPLATE.MenuItem("戻る","Menu_PROFILE",150)
 	} elseif modeonline == 1 {
 		"\0\s[5]刹那。\w9\n/
 		見ての通りの魔術師。\w9\n/
-		\s[1]名ばかりだけど。\e"
+		\s[1]名ばかりだけど。"
+		--
+		AYATEMPLATE.MenuItem("戻る","Menu_PROFILE",150)
 	}
 }
 
@@ -204,6 +206,8 @@ Menu_HANDLE
 	"\0\s[0]ハンドルは……\s[1]刹那。\w9\n/
 	子どもっぽい名前って言わないで。\w9\n/
 	昔から使ってるハンドルなんだから……。\w9\e"
+	--
+	AYATEMPLATE.MenuItem("戻る","Menu_PROFILE",150)
 }
 
 Menu_PROFILE_M
