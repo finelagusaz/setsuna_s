@@ -27,7 +27,6 @@ charset.extension, UTF-8 // SAORI入出力
 
 //------------------------------------------------------------------------------
 //辞書ファイル
-//紺野ややめのお作法に乗っかり
 //------------------------------------------------------------------------------
 dic, yaya_tmpl_util.txt		// テンプレート共通処理
 
@@ -41,6 +40,15 @@ dic, yaya_communicate.txt	// コミュニケート辞書
 dic, yaya_mouse.txt			// マウス入力関連辞書
 dic, yaya_menu.txt			// メニュー処理辞書
 dic, yaya_etc.txt			// 種々のイベント辞書
+
+// ランダムトーク辞書、トークカテゴリ単位
+dicdir, talk/everyday
+dicdir, talk/everyday/autumn
+dicdir, talk/everyday/summer
+dicdir, talk/everyday/winter
+dicdir, talk/explain
+dicdir, talk/extreme_world
+dicdir, talk/impression
 
 //------------------------------------------------------------------------------
 //セーブファイル暗号化
