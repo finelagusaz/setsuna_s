@@ -1,9 +1,4 @@
 ghost/master/yaya_variable.cfg
-shell/master/profile/shell.dat
-ghost/master/profile/ghost.dat
-ghost/master/profile/ghost.dat.bak
-ghost/master/profile/history.dat
-ghost/master/profile/var.txt
-shell/master/profile/shell.dat.bak
-ghost/master/var/index.cgi
-ghost/master/profile/tama.txt
+ghost/master/profile
+ghost/master/var
+shell/master/profile
