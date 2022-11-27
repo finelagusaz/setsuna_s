@@ -1,47 +1,44 @@
-charset,UTF-8
+charset,Shift_JIS
 
-//シェル一式のライセンスは以下のようになります。
-//http://creativecommons.org/licenses/by-nc-nd/2.1/jp/
+name,tenebres
 
-craftman,SATO M
-craftmanurl,http://sgmh.sakura.ne.jp/tcg/
-craftmanw,サトウ　Ｍ
-
-name,Master
 type,shell
 
 sakura.balloon.alignment,none
 kero.balloon.alignment,none
 
-sakura.seriko.alignmenttodesktop,free
-kero.seriko.alignmenttodesktop,free
 
-sakura.balloon.offsetx,0
-sakura.balloon.offsety,50
+craftman,sakura
+craftmanw,�g���
+craftmanurl,http://www24.big.or.jp/~tir/
 
-kero.balloon.offsetx,10
-kero.balloon.offsety,55
+readme,readme.txt
 
+sakura.balloon.offsetx,180
+sakura.balloon.offsety,0
+kero.balloon.offsetx,150
+kero.balloon.offsety,800
+
+menu.background.alignment,righttop
 menu.background.bitmap.filename,menu_background.png
+menu.foreground.alignment,righttop
 menu.foreground.bitmap.filename,menu_foreground.png
+menu.separator.color.b,255
+menu.separator.color.g,255
+menu.separator.color.r,255
+menu.sidebar.alignment,bottom
 menu.sidebar.bitmap.filename,menu_sidebar.png
 
-menu.background.font.color.r,96
-menu.background.font.color.g,96
-menu.background.font.color.b,160
+menu.background.font.color.r,0
+menu.background.font.color.g,0
+menu.background.font.color.b,0
 
 menu.foreground.font.color.r,255
 menu.foreground.font.color.g,255
 menu.foreground.font.color.b,255
 
-menu.disable.font.color.r,192
-menu.disable.font.color.g,192
-menu.disable.font.color.b,255
+menu.disable.font.color.r,0
+menu.disable.font.color.g,0
+menu.disable.font.color.b,0
 
-menu.separator.color.r,96
-menu.separator.color.g,96
-menu.separator.color.b,160
-
-menu.background.alignment,lefttop
-menu.foreground.alignment,lefttop
-menu.sidebar.alignment,top
+seriko.alignmenttodesktop,free

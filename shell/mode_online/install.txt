@@ -1,0 +1,5 @@
+charset,Shift_JIS
+type,shell
+name,mode online
+directory,mode_online
+accept,èuéq

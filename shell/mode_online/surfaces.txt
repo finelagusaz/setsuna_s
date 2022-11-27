@@ -1,0 +1,154 @@
+charset,Shift_JIS
+
+descript
+{
+	version,1
+}
+
+surface0
+{
+	element0,overlay,surface0.png,0,0
+
+	collision0,110,14,150,39,head
+	collision1,124,80,138,90,lip
+	collision2,98,157,171,193,bust
+	collision3,88,315,178,356,skirt
+
+	animation0.interval,sometimes
+	animation0.pattern0,overlay,6,50,0,0
+	animation0.pattern1,overlay,-1,60,0,0
+
+	animation1.interval,talk,1
+	animation1.pattern0,overlay,1000,100,125,81
+	animation1.pattern1,overlay,-1,100,0,0
+
+}
+
+surface1
+{
+	element0,overlay,surface0.png,0,0
+	element1,overlay,surface1.png,0,0
+
+	collision0,110,14,150,39,head
+	collision1,124,80,138,90,lip
+	collision2,98,157,171,193,bust
+	collision3,88,315,178,356,skirt
+
+	animation1.interval,talk,1
+	animation1.pattern0,overlay,1000,100,125,81
+	animation1.pattern1,overlay,-1,100,0,0
+
+}
+
+surface2
+{
+	element0,overlay,surface0.png,0,0
+	element1,overlay,surface2.png,0,0
+
+	collision0,110,14,150,39,head
+	collision1,124,80,138,90,lip
+	collision2,98,157,171,193,bust
+	collision3,88,315,178,356,skirt
+
+	animation1.interval,talk,1
+	animation1.pattern0,overlay,1000,100,125,81
+	animation1.pattern1,overlay,-1,100,0,0
+
+}
+
+surface3
+{
+	element0,overlay,surface0.png,0,0
+	element1,overlay,surface3.png,0,0
+
+	collision0,110,14,150,39,head
+	collision1,124,80,138,90,lip
+	collision2,98,157,171,193,bust
+	collision3,88,315,178,356,skirt
+}
+
+surface4
+{
+	element0,overlay,surface0.png,0,0
+	element1,overlay,surface4.png,0,0
+
+	collision0,110,14,150,39,head
+	collision1,124,80,138,90,lip
+	collision2,98,157,171,193,bust
+	collision3,88,315,178,356,skirt
+}
+
+surface5
+{
+	element0,overlay,surface0.png,0,0
+	element1,overlay,surface5.png,0,0
+
+	collision0,110,14,150,39,head
+	collision1,124,80,138,90,lip
+	collision2,98,157,171,193,bust
+	collision3,88,315,178,356,skirt
+}
+
+surface6
+{
+	element0,overlay,surface0.png,0,0
+	element1,overlay,surface6.png,0,0
+
+	animation1.interval,talk,1
+	animation1.pattern0,overlay,1000,100,125,81
+	animation1.pattern1,overlay,-1,100,0,0
+
+	collision0,110,14,150,39,head
+	collision1,124,80,138,90,lip
+	collision2,98,157,171,193,bust
+	collision3,88,315,178,356,skirt
+}
+
+surface7
+{
+	element0,overlay,surface0.png,0,0
+	element1,overlay,surface7.png,0,0
+
+	collision0,110,14,150,39,head
+	collision1,124,80,138,90,lip
+	collision2,98,157,171,193,bust
+	collision3,88,315,178,356,skirt
+}
+
+surface8
+{
+	element0,overlay,surface0.png,0,0
+	element1,overlay,surface8.png,0,0
+
+	collision0,110,14,150,39,head
+	collision1,124,80,138,90,lip
+	collision2,98,157,171,193,bust
+	collision3,88,315,178,356,skirt
+}
+
+surface9
+{
+	element0,overlay,surface0.png,0,0
+	element1,overlay,surface9.png,0,0
+
+	collision0,110,14,150,39,head
+	collision1,124,80,138,90,lip
+	collision2,98,157,171,193,bust
+	collision3,88,315,178,356,skirt
+}
+
+surface18
+{
+	element0,overlay,surface0.png,0,0
+	element1,overlay,surface18.png,0,0
+
+	animation1.interval,talk,1
+	animation1.pattern0,overlay,1000,100,125,81
+	animation1.pattern1,overlay,-1,100,0,0
+
+	collision0,110,14,150,39,head
+	collision1,124,80,138,90,lip
+	collision2,98,157,171,193,bust
+	collision3,88,315,178,356,skirt
+}
+

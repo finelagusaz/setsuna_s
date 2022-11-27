@@ -1,104 +1,1910 @@
-charset,UTF-8
+charset,Shift_JIS
 
 descript
 {
-version,1
+	version,1
 }
 
 surface0
 {
-collision0,85,47,174,97,Head
-collision1,96,97,159,147,Face
-collision2,97,170,159,210,Bust
-collision3,6,56,75,117,Twintail
-collision4,183,55,252,116,Twintail
+	element0,overlay,surface0.png,0,0
 
-animation0.interval,sometimes
-animation0.pattern0,overlay,1031,0,93,103
-animation0.pattern1,overlay,1032,50,93,103
-animation0.pattern2,overlay,1033,20,93,103
-animation0.pattern3,overlay,1032,70,93,103
-animation0.pattern4,overlay,1031,30,93,103
-animation0.pattern5,overlay,-1,70,93,103
+	collision0,202,45,275,70,head
+	collision1,207,82,229,106,face
+	collision2,212,111,217,118,lip
+	collision3,218,152,231,172,bust
+	collision4,116,268,172,318,foot
+	collision5,235,230,259,266,hip
+	collision6,84,347,140,397,leg
+	collision7,148,332,204,382,leg
+
+	animation0.interval,never
+	animation0.pattern0,overlay,1006,80,205,65
+	animation0.pattern1,overlay,-1,80,0,0
+
+	animation1.interval,never
+	animation1.pattern0,overlay,1006,0,205,65
+	animation1.pattern1,overlay,-1,200,0,0
+
+	animation2.interval,rarely
+	animation2.pattern0,alternativestart,(0,1)
+
 }
 
 surface1
 {
-collision0,85,47,174,97,Head
-collision1,96,97,159,147,Face
-collision2,6,56,75,117,Twintail
-collision3,183,55,252,116,Twintail
+	element0,overlay,surface0.png,0,0
+	element1,overlay,surface1001.png,205,65
+
+	collision0,202,45,275,70,head
+	collision1,207,82,229,106,face
+	collision2,212,111,217,118,lip
+	collision3,218,152,231,172,bust
+	collision4,116,268,172,318,foot
+	collision5,235,230,259,266,hip
+	collision6,84,347,140,397,leg
+	collision7,148,332,204,382,leg
 
 }
 
 surface2
 {
-collision0,85,47,174,97,Head
-collision1,96,97,159,147,Face
-collision2,97,170,159,210,Bust
-collision3,6,56,75,117,Twintail
-collision4,183,55,252,116,Twintail
+	element0,overlay,surface0.png,0,0
+	element1,overlay,surface1002.png,205,65
+
+	collision0,202,45,275,70,head
+	collision1,207,82,229,106,face
+	collision2,212,111,217,118,lip
+	collision3,218,152,231,172,bust
+	collision4,116,268,172,318,foot
+	collision5,235,230,259,266,hip
+	collision6,84,347,140,397,leg
+	collision7,148,332,204,382,leg
 
 }
 
 surface3
 {
-collision0,85,47,174,97,Head
-collision1,96,97,159,147,Face
-collision2,6,56,75,117,Twintail
-collision3,183,55,252,116,Twintail
+	element0,overlay,surface0.png,0,0
+	element1,overlay,surface1003.png,205,65
 
-}
-
-surface4
-{
-collision0,85,47,174,97,Head
-collision1,96,97,159,147,Face
-collision2,97,170,159,210,Bust
-collision3,6,56,75,117,Twintail
-collision4,183,55,252,116,Twintail
+	collision0,202,45,275,70,head
+	collision1,207,82,229,106,face
+	collision2,212,111,217,118,lip
+	collision3,218,152,231,172,bust
+	collision4,116,268,172,318,foot
+	collision5,235,230,259,266,hip
+	collision6,84,347,140,397,leg
+	collision7,148,332,204,382,leg
 
 }
 
 surface5
 {
-collision0,85,47,174,97,Head
-collision1,96,97,159,147,Face
-collision2,97,170,159,210,Bust
-collision3,6,56,75,117,Twintail
-collision4,183,55,252,116,Twintail
+	element0,overlay,surface0.png,0,0
+	element1,overlay,surface1005.png,205,65
+
+	collision0,202,45,275,70,head
+	collision1,207,82,229,106,face
+	collision2,212,111,217,118,lip
+	collision3,218,152,231,172,bust
+	collision4,116,268,172,318,foot
+	collision5,235,230,259,266,hip
+	collision6,84,347,140,397,leg
+	collision7,148,332,204,382,leg
 
 }
 
 surface6
 {
-collision0,85,47,174,97,Head
-collision1,96,97,159,147,Face
-collision2,97,170,159,210,Bust
-collision3,6,56,75,117,Twintail
-collision4,183,55,252,116,Twintail
+	element0,overlay,surface0.png,0,0
+	element1,overlay,surface1006.png,205,65
+
+	collision0,202,45,275,70,head
+	collision1,207,82,229,106,face
+	collision2,212,111,217,118,lip
+	collision3,218,152,231,172,bust
+	collision4,116,268,172,318,foot
+	collision5,235,230,259,266,hip
+	collision6,84,347,140,397,leg
+	collision7,148,332,204,382,leg
 
 }
 
 surface7
 {
-collision0,85,47,174,97,Head
-collision1,96,97,159,147,Face
-collision2,97,170,159,210,Bust
-collision3,6,56,75,117,Twintail
-collision4,183,55,252,116,Twintail
+	element0,overlay,surface0.png,0,0
+	element1,overlay,surface1007.png,205,65
+
+	collision0,202,45,275,70,head
+	collision1,207,82,229,106,face
+	collision2,212,111,217,118,lip
+	collision3,218,152,231,172,bust
+	collision4,116,268,172,318,foot
+	collision5,235,230,259,266,hip
+	collision6,84,347,140,397,leg
+	collision7,148,332,204,382,leg
 
 }
 
-surface10
+surface100
 {
-collision0,78,93,133,122,Face
+	element0,overlay,surface0.png,0,0
+	element1,overlay,surface1010.png,205,65
+
+	collision0,202,45,275,70,head
+	collision1,207,82,229,106,face
+	collision2,212,111,217,118,lip
+	collision3,218,152,231,172,bust
+	collision4,116,268,172,318,foot
+	collision5,235,230,259,266,hip
+	collision6,84,347,140,397,leg
+	collision7,148,332,204,382,leg
+
+	animation0.interval,never
+	animation0.pattern0,overlay,1006,80,205,65
+	animation0.pattern1,overlay,-1,80,0,0
+
+	animation1.interval,never
+	animation1.pattern0,overlay,1006,0,205,65
+	animation1.pattern1,overlay,-1,200,0,0
+
+	animation2.interval,rarely
+	animation2.pattern0,alternativestart,(0,1)
 
 }
 
-surface11
+surface101
 {
-collision0,78,93,133,122,Face
+	element0,overlay,surface0.png,0,0
+	element1,overlay,surface1011.png,205,65
+
+	collision0,202,45,275,70,head
+	collision1,207,82,229,106,face
+	collision2,212,111,217,118,lip
+	collision3,218,152,231,172,bust
+	collision4,116,268,172,318,foot
+	collision5,235,230,259,266,hip
+	collision6,84,347,140,397,leg
+	collision7,148,332,204,382,leg
+
+}
+
+surface102
+{
+	element0,overlay,surface0.png,0,0
+	element1,overlay,surface1012.png,205,65
+
+	collision0,202,45,275,70,head
+	collision1,207,82,229,106,face
+	collision2,212,111,217,118,lip
+	collision3,218,152,231,172,bust
+	collision4,116,268,172,318,foot
+	collision5,235,230,259,266,hip
+	collision6,84,347,140,397,leg
+	collision7,148,332,204,382,leg
+
+}
+
+surface103
+{
+	element0,overlay,surface0.png,0,0
+	element1,overlay,surface1013.png,205,65
+
+	collision0,202,45,275,70,head
+	collision1,207,82,229,106,face
+	collision2,212,111,217,118,lip
+	collision3,218,152,231,172,bust
+	collision4,116,268,172,318,foot
+	collision5,235,230,259,266,hip
+	collision6,84,347,140,397,leg
+	collision7,148,332,204,382,leg
+
+}
+
+surface105
+{
+	element0,overlay,surface0.png,0,0
+	element1,overlay,surface1015.png,205,65
+
+	collision0,202,45,275,70,head
+	collision1,207,82,229,106,face
+	collision2,212,111,217,118,lip
+	collision3,218,152,231,172,bust
+	collision4,116,268,172,318,foot
+	collision5,235,230,259,266,hip
+	collision6,84,347,140,397,leg
+	collision7,148,332,204,382,leg
+
+}
+
+surface107
+{
+	element0,overlay,surface0.png,0,0
+	element1,overlay,surface1017.png,205,65
+
+	collision0,202,45,275,70,head
+	collision1,207,82,229,106,face
+	collision2,212,111,217,118,lip
+	collision3,218,152,231,172,bust
+	collision4,116,268,172,318,foot
+	collision5,235,230,259,266,hip
+	collision6,84,347,140,397,leg
+	collision7,148,332,204,382,leg
+
+}
+
+surface120
+{
+	element0,overlay,surface0.png,0,0
+	element1,overlay,surface1020.png,205,65
+
+	collision0,202,45,275,70,head
+	collision1,207,82,229,106,face
+	collision2,212,111,217,118,lip
+	collision3,218,152,231,172,bust
+	collision4,116,268,172,318,foot
+	collision5,235,230,259,266,hip
+	collision6,84,347,140,397,leg
+	collision7,148,332,204,382,leg
+
+}
+
+surface2000
+{
+	element0,overlay,surface2000.png,0,0
+
+	collision0,202,45,275,70,head
+	collision1,207,82,229,106,face
+	collision2,212,111,217,118,lip
+	collision3,218,152,231,172,bust
+	collision4,116,268,172,318,foot
+	collision5,249,252,273,288,hand
+	collision6,84,347,140,397,leg
+	collision7,148,332,204,382,leg
+	collision8,259,210,268,250,hip
+
+	animation0.interval,never
+	animation0.pattern0,overlay,1206,80,205,65
+	animation0.pattern1,overlay,-1,80,0,0
+
+	animation1.interval,never
+	animation1.pattern0,overlay,1206,0,205,65
+	animation1.pattern1,overlay,-1,200,0,0
+
+	animation2.interval,rarely
+	animation2.pattern0,alternativestart,(0,1)
+
+}
+
+surface2001
+{
+	element0,overlay,surface2000.png,0,0
+	element1,overlay,surface1201.png,205,65
+
+	collision0,202,45,275,70,head
+	collision1,207,82,229,106,face
+	collision2,212,111,217,118,lip
+	collision3,218,152,231,172,bust
+	collision4,116,268,172,318,foot
+	collision5,249,252,273,288,hand
+	collision6,84,347,140,397,leg
+	collision7,148,332,204,382,leg
+	collision8,259,210,268,250,hip
+
+}
+
+surface2002
+{
+	element0,overlay,surface2000.png,0,0
+	element1,overlay,surface1202.png,205,65
+
+	collision0,202,45,275,70,head
+	collision1,207,82,229,106,face
+	collision2,212,111,217,118,lip
+	collision3,218,152,231,172,bust
+	collision4,116,268,172,318,foot
+	collision5,249,252,273,288,hand
+	collision6,84,347,140,397,leg
+	collision7,148,332,204,382,leg
+	collision8,259,210,268,250,hip
+
+}
+
+surface2003
+{
+	element0,overlay,surface2000.png,0,0
+	element1,overlay,surface1203.png,205,65
+
+	collision0,202,45,275,70,head
+	collision1,207,82,229,106,face
+	collision2,212,111,217,118,lip
+	collision3,218,152,231,172,bust
+	collision4,116,268,172,318,foot
+	collision5,249,252,273,288,hand
+	collision6,84,347,140,397,leg
+	collision7,148,332,204,382,leg
+	collision8,259,210,268,250,hip
+
+}
+
+surface2005
+{
+	element0,overlay,surface2000.png,0,0
+	element1,overlay,surface1205.png,205,65
+
+	collision0,202,45,275,70,head
+	collision1,207,82,229,106,face
+	collision2,212,111,217,118,lip
+	collision3,218,152,231,172,bust
+	collision4,116,268,172,318,foot
+	collision5,249,252,273,288,hand
+	collision6,84,347,140,397,leg
+	collision7,148,332,204,382,leg
+	collision8,259,210,268,250,hip
+
+}
+
+surface2006
+{
+	element0,overlay,surface2000.png,0,0
+	element1,overlay,surface1206.png,205,65
+
+	collision0,202,45,275,70,head
+	collision1,207,82,229,106,face
+	collision2,212,111,217,118,lip
+	collision3,218,152,231,172,bust
+	collision4,116,268,172,318,foot
+	collision5,249,252,273,288,hand
+	collision6,84,347,140,397,leg
+	collision7,148,332,204,382,leg
+	collision8,259,210,268,250,hip
+
+}
+
+surface2007
+{
+	element0,overlay,surface2000.png,0,0
+	element1,overlay,surface1207.png,205,65
+
+	collision0,202,45,275,70,head
+	collision1,207,82,229,106,face
+	collision2,212,111,217,118,lip
+	collision3,218,152,231,172,bust
+	collision4,116,268,172,318,foot
+	collision5,249,252,273,288,hand
+	collision6,84,347,140,397,leg
+	collision7,148,332,204,382,leg
+	collision8,259,210,268,250,hip
+
+}
+
+surface2100
+{
+	element0,overlay,surface2000.png,0,0
+	element1,overlay,surface1210.png,205,65
+
+	collision0,202,45,275,70,head
+	collision1,207,82,229,106,face
+	collision2,212,111,217,118,lip
+	collision3,218,152,231,172,bust
+	collision4,116,268,172,318,foot
+	collision5,249,252,273,288,hand
+	collision6,84,347,140,397,leg
+	collision7,148,332,204,382,leg
+	collision8,259,210,268,250,hip
+
+	animation0.interval,never
+	animation0.pattern0,overlay,1206,80,205,65
+	animation0.pattern1,overlay,-1,80,0,0
+
+	animation1.interval,never
+	animation1.pattern0,overlay,1206,0,205,65
+	animation1.pattern1,overlay,-1,200,0,0
+
+	animation2.interval,rarely
+	animation2.pattern0,alternativestart,(0,1)
+
+}
+
+surface2101
+{
+	element0,overlay,surface2000.png,0,0
+	element1,overlay,surface1211.png,205,65
+
+	collision0,202,45,275,70,head
+	collision1,207,82,229,106,face
+	collision2,212,111,217,118,lip
+	collision3,218,152,231,172,bust
+	collision4,116,268,172,318,foot
+	collision5,249,252,273,288,hand
+	collision6,84,347,140,397,leg
+	collision7,148,332,204,382,leg
+	collision8,259,210,268,250,hip
+
+}
+
+surface2102
+{
+	element0,overlay,surface2000.png,0,0
+	element1,overlay,surface1212.png,205,65
+
+	collision0,202,45,275,70,head
+	collision1,207,82,229,106,face
+	collision2,212,111,217,118,lip
+	collision3,218,152,231,172,bust
+	collision4,116,268,172,318,foot
+	collision5,249,252,273,288,hand
+	collision6,84,347,140,397,leg
+	collision7,148,332,204,382,leg
+	collision8,259,210,268,250,hip
+
+}
+
+surface2103
+{
+	element0,overlay,surface2000.png,0,0
+	element1,overlay,surface1213.png,205,65
+
+	collision0,202,45,275,70,head
+	collision1,207,82,229,106,face
+	collision2,212,111,217,118,lip
+	collision3,218,152,231,172,bust
+	collision4,116,268,172,318,foot
+	collision5,249,252,273,288,hand
+	collision6,84,347,140,397,leg
+	collision7,148,332,204,382,leg
+	collision8,259,210,268,250,hip
+
+}
+
+surface2105
+{
+	element0,overlay,surface2000.png,0,0
+	element1,overlay,surface1215.png,205,65
+
+	collision0,202,45,275,70,head
+	collision1,207,82,229,106,face
+	collision2,212,111,217,118,lip
+	collision3,218,152,231,172,bust
+	collision4,116,268,172,318,foot
+	collision5,249,252,273,288,hand
+	collision6,84,347,140,397,leg
+	collision7,148,332,204,382,leg
+	collision8,259,210,268,250,hip
+
+}
+
+surface2107
+{
+	element0,overlay,surface2000.png,0,0
+	element1,overlay,surface1217.png,205,65
+
+	collision0,202,45,275,70,head
+	collision1,207,82,229,106,face
+	collision2,212,111,217,118,lip
+	collision3,218,152,231,172,bust
+	collision4,116,268,172,318,foot
+	collision5,249,252,273,288,hand
+	collision6,84,347,140,397,leg
+	collision7,148,332,204,382,leg
+	collision8,259,210,268,250,hip
+
+}
+
+surface2120
+{
+	element0,overlay,surface2000.png,0,0
+	element1,overlay,surface1220.png,205,65
+
+	collision0,202,45,275,70,head
+	collision1,207,82,229,106,face
+	collision2,212,111,217,118,lip
+	collision3,218,152,231,172,bust
+	collision4,116,268,172,318,foot
+	collision5,249,252,273,288,hand
+	collision6,84,347,140,397,leg
+	collision7,148,332,204,382,leg
+	collision8,259,210,268,250,hip
+
+}
+
+surface3000
+{
+	element0,overlay,surface3000.png,0,0
+
+	collision0,202,45,275,70,head
+	collision1,207,82,229,106,face
+	collision2,212,111,217,118,lip
+	collision3,218,152,231,172,bust
+	collision4,84,226,170,264,foot
+	collision5,235,230,259,266,hip
+	collision6,10,239,66,289,leg
+	collision7,84,346,140,396,leg
+	collision8,119,263,159,337,foot
+
+	animation0.interval,never
+	animation0.pattern0,overlay,1006,80,205,65
+	animation0.pattern1,overlay,-1,80,0,0
+
+	animation1.interval,never
+	animation1.pattern0,overlay,1006,0,205,65
+	animation1.pattern1,overlay,-1,200,0,0
+
+	animation2.interval,rarely
+	animation2.pattern0,alternativestart,(0,1)
+
+}
+
+surface3001
+{
+	element0,overlay,surface3000.png,0,0
+	element1,overlay,surface1001.png,205,65
+
+	collision0,202,45,275,70,head
+	collision1,207,82,229,106,face
+	collision2,212,111,217,118,lip
+	collision3,218,152,231,172,bust
+	collision4,84,226,170,264,foot
+	collision5,235,230,259,266,hip
+	collision6,10,239,66,289,leg
+	collision7,84,346,140,396,leg
+	collision8,119,263,159,337,foot
+
+}
+
+surface3002
+{
+	element0,overlay,surface3000.png,0,0
+	element1,overlay,surface1002.png,205,65
+
+	collision0,202,45,275,70,head
+	collision1,207,82,229,106,face
+	collision2,212,111,217,118,lip
+	collision3,218,152,231,172,bust
+	collision4,84,226,170,264,foot
+	collision5,235,230,259,266,hip
+	collision6,10,239,66,289,leg
+	collision7,84,346,140,396,leg
+	collision8,119,263,159,337,foot
+
+}
+
+surface3003
+{
+	element0,overlay,surface3000.png,0,0
+	element1,overlay,surface1003.png,205,65
+
+	collision0,202,45,275,70,head
+	collision1,207,82,229,106,face
+	collision2,212,111,217,118,lip
+	collision3,218,152,231,172,bust
+	collision4,84,226,170,264,foot
+	collision5,235,230,259,266,hip
+	collision6,10,239,66,289,leg
+	collision7,84,346,140,396,leg
+	collision8,119,263,159,337,foot
+
+}
+
+surface3005
+{
+	element0,overlay,surface3000.png,0,0
+	element1,overlay,surface1005.png,205,65
+
+	collision0,202,45,275,70,head
+	collision1,207,82,229,106,face
+	collision2,212,111,217,118,lip
+	collision3,218,152,231,172,bust
+	collision4,84,226,170,264,foot
+	collision5,235,230,259,266,hip
+	collision6,10,239,66,289,leg
+	collision7,84,346,140,396,leg
+	collision8,119,263,159,337,foot
+
+}
+
+surface3006
+{
+	element0,overlay,surface3000.png,0,0
+	element1,overlay,surface1006.png,205,65
+
+	collision0,202,45,275,70,head
+	collision1,207,82,229,106,face
+	collision2,212,111,217,118,lip
+	collision3,218,152,231,172,bust
+	collision4,84,226,170,264,foot
+	collision5,235,230,259,266,hip
+	collision6,10,239,66,289,leg
+	collision7,84,346,140,396,leg
+	collision8,119,263,159,337,foot
+
+}
+
+surface3007
+{
+	element0,overlay,surface3000.png,0,0
+	element1,overlay,surface1007.png,205,65
+
+	collision0,202,45,275,70,head
+	collision1,207,82,229,106,face
+	collision2,212,111,217,118,lip
+	collision3,218,152,231,172,bust
+	collision4,84,226,170,264,foot
+	collision5,235,230,259,266,hip
+	collision6,10,239,66,289,leg
+	collision7,84,346,140,396,leg
+	collision8,119,263,159,337,foot
+
+}
+
+surface3100
+{
+	element0,overlay,surface3000.png,0,0
+	element1,overlay,surface1010.png,205,65
+
+	collision0,202,45,275,70,head
+	collision1,207,82,229,106,face
+	collision2,212,111,217,118,lip
+	collision3,218,152,231,172,bust
+	collision4,84,226,170,264,foot
+	collision5,235,230,259,266,hip
+	collision6,10,239,66,289,leg
+	collision7,84,346,140,396,leg
+	collision8,119,263,159,337,foot
+
+	animation0.interval,never
+	animation0.pattern0,overlay,1006,80,205,65
+	animation0.pattern1,overlay,-1,80,0,0
+
+	animation1.interval,never
+	animation1.pattern0,overlay,1006,0,205,65
+	animation1.pattern1,overlay,-1,200,0,0
+
+	animation2.interval,rarely
+	animation2.pattern0,alternativestart,(0,1)
+
+}
+
+surface3101
+{
+	element0,overlay,surface3000.png,0,0
+	element1,overlay,surface1011.png,205,65
+
+	collision0,202,45,275,70,head
+	collision1,207,82,229,106,face
+	collision2,212,111,217,118,lip
+	collision3,218,152,231,172,bust
+	collision4,84,226,170,264,foot
+	collision5,235,230,259,266,hip
+	collision6,10,239,66,289,leg
+	collision7,84,346,140,396,leg
+	collision8,119,263,159,337,foot
+
+}
+
+surface3102
+{
+	element0,overlay,surface3000.png,0,0
+	element1,overlay,surface1012.png,205,65
+
+	collision0,202,45,275,70,head
+	collision1,207,82,229,106,face
+	collision2,212,111,217,118,lip
+	collision3,218,152,231,172,bust
+	collision4,84,226,170,264,foot
+	collision5,235,230,259,266,hip
+	collision6,10,239,66,289,leg
+	collision7,84,346,140,396,leg
+	collision8,119,263,159,337,foot
+
+}
+
+surface3103
+{
+	element0,overlay,surface3000.png,0,0
+	element1,overlay,surface1013.png,205,65
+
+	collision0,202,45,275,70,head
+	collision1,207,82,229,106,face
+	collision2,212,111,217,118,lip
+	collision3,218,152,231,172,bust
+	collision4,84,226,170,264,foot
+	collision5,235,230,259,266,hip
+	collision6,10,239,66,289,leg
+	collision7,84,346,140,396,leg
+	collision8,119,263,159,337,foot
+
+}
+
+surface3105
+{
+	element0,overlay,surface3000.png,0,0
+	element1,overlay,surface1015.png,205,65
+
+	collision0,202,45,275,70,head
+	collision1,207,82,229,106,face
+	collision2,212,111,217,118,lip
+	collision3,218,152,231,172,bust
+	collision4,84,226,170,264,foot
+	collision5,235,230,259,266,hip
+	collision6,10,239,66,289,leg
+	collision7,84,346,140,396,leg
+	collision8,119,263,159,337,foot
+
+}
+
+surface3107
+{
+	element0,overlay,surface3000.png,0,0
+	element1,overlay,surface1017.png,205,65
+
+	collision0,202,45,275,70,head
+	collision1,207,82,229,106,face
+	collision2,212,111,217,118,lip
+	collision3,218,152,231,172,bust
+	collision4,84,226,170,264,foot
+	collision5,235,230,259,266,hip
+	collision6,10,239,66,289,leg
+	collision7,84,346,140,396,leg
+	collision8,119,263,159,337,foot
+
+}
+
+surface3120
+{
+	element0,overlay,surface3000.png,0,0
+	element1,overlay,surface1020.png,205,65
+
+	collision0,202,45,275,70,head
+	collision1,207,82,229,106,face
+	collision2,212,111,217,118,lip
+	collision3,218,152,231,172,bust
+	collision4,84,226,170,264,foot
+	collision5,235,230,259,266,hip
+	collision6,10,239,66,289,leg
+	collision7,84,346,140,396,leg
+	collision8,119,263,159,337,foot
+
+}
+
+surface4000
+{
+	element0,overlay,surface4000.png,0,0
+
+	collision0,202,45,275,70,head
+	collision1,207,82,229,106,face
+	collision2,212,111,217,118,lip
+	collision3,218,152,231,172,bust
+	collision4,77,239,163,277,foot
+	collision5,235,230,259,266,hip
+	collision6,10,239,66,289,leg
+	collision7,135,330,191,380,leg
+	collision8,140,264,180,329,foot
+
+	animation0.interval,never
+	animation0.pattern0,overlay,1006,80,205,65
+	animation0.pattern1,overlay,-1,80,0,0
+
+	animation1.interval,never
+	animation1.pattern0,overlay,1006,0,205,65
+	animation1.pattern1,overlay,-1,200,0,0
+
+	animation2.interval,rarely
+	animation2.pattern0,alternativestart,(0,1)
+
+}
+
+surface4001
+{
+	element0,overlay,surface4000.png,0,0
+	element1,overlay,surface1001.png,205,65
+
+	collision0,202,45,275,70,head
+	collision1,207,82,229,106,face
+	collision2,212,111,217,118,lip
+	collision3,218,152,231,172,bust
+	collision4,77,239,163,277,foot
+	collision5,235,230,259,266,hip
+	collision6,10,239,66,289,leg
+	collision7,135,330,191,380,leg
+	collision8,140,264,180,329,foot
+
+}
+
+surface4002
+{
+	element0,overlay,surface4000.png,0,0
+	element1,overlay,surface1002.png,205,65
+
+	collision0,202,45,275,70,head
+	collision1,207,82,229,106,face
+	collision2,212,111,217,118,lip
+	collision3,218,152,231,172,bust
+	collision4,77,239,163,277,foot
+	collision5,235,230,259,266,hip
+	collision6,10,239,66,289,leg
+	collision7,135,330,191,380,leg
+	collision8,140,264,180,329,foot
+
+}
+
+surface4003
+{
+	element0,overlay,surface4000.png,0,0
+	element1,overlay,surface1003.png,205,65
+
+	collision0,202,45,275,70,head
+	collision1,207,82,229,106,face
+	collision2,212,111,217,118,lip
+	collision3,218,152,231,172,bust
+	collision4,77,239,163,277,foot
+	collision5,235,230,259,266,hip
+	collision6,10,239,66,289,leg
+	collision7,135,330,191,380,leg
+	collision8,140,264,180,329,foot
+
+}
+
+surface4005
+{
+	element0,overlay,surface4000.png,0,0
+	element1,overlay,surface1005.png,205,65
+
+	collision0,202,45,275,70,head
+	collision1,207,82,229,106,face
+	collision2,212,111,217,118,lip
+	collision3,218,152,231,172,bust
+	collision4,77,239,163,277,foot
+	collision5,235,230,259,266,hip
+	collision6,10,239,66,289,leg
+	collision7,135,330,191,380,leg
+	collision8,140,264,180,329,foot
+
+}
+
+surface4006
+{
+	element0,overlay,surface4000.png,0,0
+	element1,overlay,surface1006.png,205,65
+
+	collision0,202,45,275,70,head
+	collision1,207,82,229,106,face
+	collision2,212,111,217,118,lip
+	collision3,218,152,231,172,bust
+	collision4,77,239,163,277,foot
+	collision5,235,230,259,266,hip
+	collision6,10,239,66,289,leg
+	collision7,135,330,191,380,leg
+	collision8,140,264,180,329,foot
+
+}
+
+surface4007
+{
+	element0,overlay,surface4000.png,0,0
+	element1,overlay,surface1007.png,205,65
+
+	collision0,202,45,275,70,head
+	collision1,207,82,229,106,face
+	collision2,212,111,217,118,lip
+	collision3,218,152,231,172,bust
+	collision4,77,239,163,277,foot
+	collision5,235,230,259,266,hip
+	collision6,10,239,66,289,leg
+	collision7,135,330,191,380,leg
+	collision8,140,264,180,329,foot
+
+}
+
+surface4100
+{
+	element0,overlay,surface4000.png,0,0
+	element1,overlay,surface1010.png,205,65
+
+	collision0,202,45,275,70,head
+	collision1,207,82,229,106,face
+	collision2,212,111,217,118,lip
+	collision3,218,152,231,172,bust
+	collision4,77,239,163,277,foot
+	collision5,235,230,259,266,hip
+	collision6,10,239,66,289,leg
+	collision7,135,330,191,380,leg
+	collision8,140,264,180,329,foot
+
+	animation0.interval,never
+	animation0.pattern0,overlay,1006,80,205,65
+	animation0.pattern1,overlay,-1,80,0,0
+
+	animation1.interval,never
+	animation1.pattern0,overlay,1006,0,205,65
+	animation1.pattern1,overlay,-1,200,0,0
+
+	animation2.interval,rarely
+	animation2.pattern0,alternativestart,(0,1)
+
+}
+
+surface4101
+{
+	element0,overlay,surface4000.png,0,0
+	element1,overlay,surface1011.png,205,65
+
+	collision0,202,45,275,70,head
+	collision1,207,82,229,106,face
+	collision2,212,111,217,118,lip
+	collision3,218,152,231,172,bust
+	collision4,77,239,163,277,foot
+	collision5,235,230,259,266,hip
+	collision6,10,239,66,289,leg
+	collision7,135,330,191,380,leg
+	collision8,140,264,180,329,foot
+
+}
+
+surface4102
+{
+	element0,overlay,surface4000.png,0,0
+	element1,overlay,surface1012.png,205,65
+
+	collision0,202,45,275,70,head
+	collision1,207,82,229,106,face
+	collision2,212,111,217,118,lip
+	collision3,218,152,231,172,bust
+	collision4,77,239,163,277,foot
+	collision5,235,230,259,266,hip
+	collision6,10,239,66,289,leg
+	collision7,135,330,191,380,leg
+	collision8,140,264,180,329,foot
+
+}
+
+surface4103
+{
+	element0,overlay,surface4000.png,0,0
+	element1,overlay,surface1013.png,205,65
+
+	collision0,202,45,275,70,head
+	collision1,207,82,229,106,face
+	collision2,212,111,217,118,lip
+	collision3,218,152,231,172,bust
+	collision4,77,239,163,277,foot
+	collision5,235,230,259,266,hip
+	collision6,10,239,66,289,leg
+	collision7,135,330,191,380,leg
+	collision8,140,264,180,329,foot
+
+}
+
+surface4105
+{
+	element0,overlay,surface4000.png,0,0
+	element1,overlay,surface1015.png,205,65
+
+	collision0,202,45,275,70,head
+	collision1,207,82,229,106,face
+	collision2,212,111,217,118,lip
+	collision3,218,152,231,172,bust
+	collision4,77,239,163,277,foot
+	collision5,235,230,259,266,hip
+	collision6,10,239,66,289,leg
+	collision7,135,330,191,380,leg
+	collision8,140,264,180,329,foot
+
+}
+
+surface4107
+{
+	element0,overlay,surface4000.png,0,0
+	element1,overlay,surface1017.png,205,65
+
+	collision0,202,45,275,70,head
+	collision1,207,82,229,106,face
+	collision2,212,111,217,118,lip
+	collision3,218,152,231,172,bust
+	collision4,77,239,163,277,foot
+	collision5,235,230,259,266,hip
+	collision6,10,239,66,289,leg
+	collision7,135,330,191,380,leg
+	collision8,140,264,180,329,foot
+
+}
+
+surface4120
+{
+	element0,overlay,surface4000.png,0,0
+	element1,overlay,surface1020.png,205,65
+
+	collision0,202,45,275,70,head
+	collision1,207,82,229,106,face
+	collision2,212,111,217,118,lip
+	collision3,218,152,231,172,bust
+	collision4,77,239,163,277,foot
+	collision5,235,230,259,266,hip
+	collision6,10,239,66,289,leg
+	collision7,135,330,191,380,leg
+	collision8,140,264,180,329,foot
+
+}
+
+surface5000
+{
+	element0,overlay,surface5000.png,0,0
+
+	collision0,202,45,275,70,head
+	collision1,207,82,229,106,face
+	collision2,212,111,217,118,lip
+	collision3,213,154,226,174,hand
+	collision4,84,226,170,264,foot
+	collision5,235,230,259,266,hip
+	collision6,10,239,66,289,leg
+	collision7,84,346,140,396,leg
+	collision8,119,263,159,337,foot
+	collision9,208,201,225,220,hand
+
+	animation0.interval,never
+	animation0.pattern0,overlay,1006,80,205,65
+	animation0.pattern1,overlay,-1,80,0,0
+
+	animation1.interval,never
+	animation1.pattern0,overlay,1006,0,205,65
+	animation1.pattern1,overlay,-1,200,0,0
+
+	animation2.interval,rarely
+	animation2.pattern0,alternativestart,(0,1)
+
+}
+
+surface5001
+{
+	element0,overlay,surface5000.png,0,0
+	element1,overlay,surface1001.png,205,65
+
+	collision0,202,45,275,70,head
+	collision1,207,82,229,106,face
+	collision2,212,111,217,118,lip
+	collision3,213,154,226,174,hand
+	collision4,84,226,170,264,foot
+	collision5,235,230,259,266,hip
+	collision6,10,239,66,289,leg
+	collision7,84,346,140,396,leg
+	collision8,119,263,159,337,foot
+	collision9,208,201,225,220,hand
+
+}
+
+surface5002
+{
+	element0,overlay,surface5000.png,0,0
+	element1,overlay,surface1002.png,205,65
+
+	collision0,202,45,275,70,head
+	collision1,207,82,229,106,face
+	collision2,212,111,217,118,lip
+	collision3,213,154,226,174,hand
+	collision4,84,226,170,264,foot
+	collision5,235,230,259,266,hip
+	collision6,10,239,66,289,leg
+	collision7,84,346,140,396,leg
+	collision8,119,263,159,337,foot
+	collision9,208,201,225,220,hand
+
+}
+
+surface5003
+{
+	element0,overlay,surface5000.png,0,0
+	element1,overlay,surface1003.png,205,65
+
+	collision0,202,45,275,70,head
+	collision1,207,82,229,106,face
+	collision2,212,111,217,118,lip
+	collision3,213,154,226,174,hand
+	collision4,84,226,170,264,foot
+	collision5,235,230,259,266,hip
+	collision6,10,239,66,289,leg
+	collision7,84,346,140,396,leg
+	collision8,119,263,159,337,foot
+	collision9,208,201,225,220,hand
+
+}
+
+surface5005
+{
+	element0,overlay,surface5000.png,0,0
+	element1,overlay,surface1005.png,205,65
+
+	collision0,202,45,275,70,head
+	collision1,207,82,229,106,face
+	collision2,212,111,217,118,lip
+	collision3,213,154,226,174,hand
+	collision4,84,226,170,264,foot
+	collision5,235,230,259,266,hip
+	collision6,10,239,66,289,leg
+	collision7,84,346,140,396,leg
+	collision8,119,263,159,337,foot
+	collision9,208,201,225,220,hand
+
+}
+
+surface5006
+{
+	element0,overlay,surface5000.png,0,0
+	element1,overlay,surface1006.png,205,65
+
+	collision0,202,45,275,70,head
+	collision1,207,82,229,106,face
+	collision2,212,111,217,118,lip
+	collision3,213,154,226,174,hand
+	collision4,84,226,170,264,foot
+	collision5,235,230,259,266,hip
+	collision6,10,239,66,289,leg
+	collision7,84,346,140,396,leg
+	collision8,119,263,159,337,foot
+	collision9,208,201,225,220,hand
+
+}
+
+surface5007
+{
+	element0,overlay,surface5000.png,0,0
+	element1,overlay,surface1007.png,205,65
+
+	collision0,202,45,275,70,head
+	collision1,207,82,229,106,face
+	collision2,212,111,217,118,lip
+	collision3,213,154,226,174,hand
+	collision4,84,226,170,264,foot
+	collision5,235,230,259,266,hip
+	collision6,10,239,66,289,leg
+	collision7,84,346,140,396,leg
+	collision8,119,263,159,337,foot
+	collision9,208,201,225,220,hand
+
+}
+
+surface5100
+{
+	element0,overlay,surface5000.png,0,0
+	element1,overlay,surface1010.png,205,65
+
+	collision0,202,45,275,70,head
+	collision1,207,82,229,106,face
+	collision2,212,111,217,118,lip
+	collision3,213,154,226,174,hand
+	collision4,84,226,170,264,foot
+	collision5,235,230,259,266,hip
+	collision6,10,239,66,289,leg
+	collision7,84,346,140,396,leg
+	collision8,119,263,159,337,foot
+	collision9,208,201,225,220,hand
+
+	animation0.interval,never
+	animation0.pattern0,overlay,1006,80,205,65
+	animation0.pattern1,overlay,-1,80,0,0
+
+	animation1.interval,never
+	animation1.pattern0,overlay,1006,0,205,65
+	animation1.pattern1,overlay,-1,200,0,0
+
+	animation2.interval,rarely
+	animation2.pattern0,alternativestart,(0,1)
+
+}
+
+surface5101
+{
+	element0,overlay,surface5000.png,0,0
+	element1,overlay,surface1011.png,205,65
+
+	collision0,202,45,275,70,head
+	collision1,207,82,229,106,face
+	collision2,212,111,217,118,lip
+	collision3,213,154,226,174,hand
+	collision4,84,226,170,264,foot
+	collision5,235,230,259,266,hip
+	collision6,10,239,66,289,leg
+	collision7,84,346,140,396,leg
+	collision8,119,263,159,337,foot
+	collision9,208,201,225,220,hand
+
+}
+
+surface5102
+{
+	element0,overlay,surface5000.png,0,0
+	element1,overlay,surface1012.png,205,65
+
+	collision0,202,45,275,70,head
+	collision1,207,82,229,106,face
+	collision2,212,111,217,118,lip
+	collision3,213,154,226,174,hand
+	collision4,84,226,170,264,foot
+	collision5,235,230,259,266,hip
+	collision6,10,239,66,289,leg
+	collision7,84,346,140,396,leg
+	collision8,119,263,159,337,foot
+	collision9,208,201,225,220,hand
+
+}
+
+surface5103
+{
+	element0,overlay,surface5000.png,0,0
+	element1,overlay,surface1013.png,205,65
+
+	collision0,202,45,275,70,head
+	collision1,207,82,229,106,face
+	collision2,212,111,217,118,lip
+	collision3,213,154,226,174,hand
+	collision4,84,226,170,264,foot
+	collision5,235,230,259,266,hip
+	collision6,10,239,66,289,leg
+	collision7,84,346,140,396,leg
+	collision8,119,263,159,337,foot
+	collision9,208,201,225,220,hand
+
+}
+
+surface5105
+{
+	element0,overlay,surface5000.png,0,0
+	element1,overlay,surface1015.png,205,65
+
+	collision0,202,45,275,70,head
+	collision1,207,82,229,106,face
+	collision2,212,111,217,118,lip
+	collision3,213,154,226,174,hand
+	collision4,84,226,170,264,foot
+	collision5,235,230,259,266,hip
+	collision6,10,239,66,289,leg
+	collision7,84,346,140,396,leg
+	collision8,119,263,159,337,foot
+	collision9,208,201,225,220,hand
+
+}
+
+surface5107
+{
+	element0,overlay,surface5000.png,0,0
+	element1,overlay,surface1017.png,205,65
+
+	collision0,202,45,275,70,head
+	collision1,207,82,229,106,face
+	collision2,212,111,217,118,lip
+	collision3,213,154,226,174,hand
+	collision4,84,226,170,264,foot
+	collision5,235,230,259,266,hip
+	collision6,10,239,66,289,leg
+	collision7,84,346,140,396,leg
+	collision8,119,263,159,337,foot
+	collision9,208,201,225,220,hand
+
+}
+
+surface5120
+{
+	element0,overlay,surface5000.png,0,0
+	element1,overlay,surface1020.png,205,65
+
+	collision0,202,45,275,70,head
+	collision1,207,82,229,106,face
+	collision2,212,111,217,118,lip
+	collision3,213,154,226,174,hand
+	collision4,84,226,170,264,foot
+	collision5,235,230,259,266,hip
+	collision6,10,239,66,289,leg
+	collision7,84,346,140,396,leg
+	collision8,119,263,159,337,foot
+	collision9,208,201,225,220,hand
+
+}
+
+surface6000
+{
+	element0,overlay,surface6000.png,0,0
+
+	collision0,202,45,275,70,head
+	collision1,207,82,229,106,face
+	collision2,212,111,217,118,lip
+	collision3,213,154,226,174,hand
+	collision4,82,238,168,276,foot
+	collision5,235,230,259,266,hip
+	collision6,10,239,66,289,leg
+	collision7,128,328,184,378,leg
+	collision8,140,272,180,324,foot
+	collision9,208,201,225,220,hand
+
+	animation0.interval,never
+	animation0.pattern0,overlay,1006,80,205,65
+	animation0.pattern1,overlay,-1,80,0,0
+
+	animation1.interval,never
+	animation1.pattern0,overlay,1006,0,205,65
+	animation1.pattern1,overlay,-1,200,0,0
+
+	animation2.interval,rarely
+	animation2.pattern0,alternativestart,(0,1)
+
+}
+
+surface6001
+{
+	element0,overlay,surface6000.png,0,0
+	element1,overlay,surface1001.png,205,65
+
+	collision0,202,45,275,70,head
+	collision1,207,82,229,106,face
+	collision2,212,111,217,118,lip
+	collision3,213,154,226,174,hand
+	collision4,82,238,168,276,foot
+	collision5,235,230,259,266,hip
+	collision6,10,239,66,289,leg
+	collision7,128,328,184,378,leg
+	collision8,140,272,180,324,foot
+	collision9,208,201,225,220,hand
+
+}
+
+surface6002
+{
+	element0,overlay,surface6000.png,0,0
+	element1,overlay,surface1002.png,205,65
+
+	collision0,202,45,275,70,head
+	collision1,207,82,229,106,face
+	collision2,212,111,217,118,lip
+	collision3,213,154,226,174,hand
+	collision4,82,238,168,276,foot
+	collision5,235,230,259,266,hip
+	collision6,10,239,66,289,leg
+	collision7,128,328,184,378,leg
+	collision8,140,272,180,324,foot
+	collision9,208,201,225,220,hand
+
+}
+
+surface6003
+{
+	element0,overlay,surface6000.png,0,0
+	element1,overlay,surface1003.png,205,65
+
+	collision0,202,45,275,70,head
+	collision1,207,82,229,106,face
+	collision2,212,111,217,118,lip
+	collision3,213,154,226,174,hand
+	collision4,82,238,168,276,foot
+	collision5,235,230,259,266,hip
+	collision6,10,239,66,289,leg
+	collision7,128,328,184,378,leg
+	collision8,140,272,180,324,foot
+	collision9,208,201,225,220,hand
+
+}
+
+surface6005
+{
+	element0,overlay,surface6000.png,0,0
+	element1,overlay,surface1005.png,205,65
+
+	collision0,202,45,275,70,head
+	collision1,207,82,229,106,face
+	collision2,212,111,217,118,lip
+	collision3,213,154,226,174,hand
+	collision4,82,238,168,276,foot
+	collision5,235,230,259,266,hip
+	collision6,10,239,66,289,leg
+	collision7,128,328,184,378,leg
+	collision8,140,272,180,324,foot
+	collision9,208,201,225,220,hand
+
+}
+
+surface6006
+{
+	element0,overlay,surface6000.png,0,0
+	element1,overlay,surface1006.png,205,65
+
+	collision0,202,45,275,70,head
+	collision1,207,82,229,106,face
+	collision2,212,111,217,118,lip
+	collision3,213,154,226,174,hand
+	collision4,82,238,168,276,foot
+	collision5,235,230,259,266,hip
+	collision6,10,239,66,289,leg
+	collision7,128,328,184,378,leg
+	collision8,140,272,180,324,foot
+	collision9,208,201,225,220,hand
+
+}
+
+surface6007
+{
+	element0,overlay,surface6000.png,0,0
+	element1,overlay,surface1007.png,205,65
+
+	collision0,202,45,275,70,head
+	collision1,207,82,229,106,face
+	collision2,212,111,217,118,lip
+	collision3,213,154,226,174,hand
+	collision4,82,238,168,276,foot
+	collision5,235,230,259,266,hip
+	collision6,10,239,66,289,leg
+	collision7,128,328,184,378,leg
+	collision8,140,272,180,324,foot
+	collision9,208,201,225,220,hand
+
+}
+
+surface6100
+{
+	element0,overlay,surface6000.png,0,0
+	element1,overlay,surface1010.png,205,65
+
+	collision0,202,45,275,70,head
+	collision1,207,82,229,106,face
+	collision2,212,111,217,118,lip
+	collision3,213,154,226,174,hand
+	collision4,82,238,168,276,foot
+	collision5,235,230,259,266,hip
+	collision6,10,239,66,289,leg
+	collision7,128,328,184,378,leg
+	collision8,140,272,180,324,foot
+	collision9,208,201,225,220,hand
+
+	animation0.interval,never
+	animation0.pattern0,overlay,1006,80,205,65
+	animation0.pattern1,overlay,-1,80,0,0
+
+	animation1.interval,never
+	animation1.pattern0,overlay,1006,0,205,65
+	animation1.pattern1,overlay,-1,200,0,0
+
+	animation2.interval,rarely
+	animation2.pattern0,alternativestart,(0,1)
+
+}
+
+surface6101
+{
+	element0,overlay,surface6000.png,0,0
+	element1,overlay,surface1011.png,205,65
+
+	collision0,202,45,275,70,head
+	collision1,207,82,229,106,face
+	collision2,212,111,217,118,lip
+	collision3,213,154,226,174,hand
+	collision4,82,238,168,276,foot
+	collision5,235,230,259,266,hip
+	collision6,10,239,66,289,leg
+	collision7,128,328,184,378,leg
+	collision8,140,272,180,324,foot
+	collision9,208,201,225,220,hand
+
+}
+
+surface6102
+{
+	element0,overlay,surface6000.png,0,0
+	element1,overlay,surface1012.png,205,65
+
+	collision0,202,45,275,70,head
+	collision1,207,82,229,106,face
+	collision2,212,111,217,118,lip
+	collision3,213,154,226,174,hand
+	collision4,82,238,168,276,foot
+	collision5,235,230,259,266,hip
+	collision6,10,239,66,289,leg
+	collision7,128,328,184,378,leg
+	collision8,140,272,180,324,foot
+	collision9,208,201,225,220,hand
+
+}
+
+surface6103
+{
+	element0,overlay,surface6000.png,0,0
+	element1,overlay,surface1013.png,205,65
+
+}
+
+surface6105
+{
+	element0,overlay,surface6000.png,0,0
+	element1,overlay,surface1015.png,205,65
+
+	collision0,202,45,275,70,head
+	collision1,207,82,229,106,face
+	collision2,212,111,217,118,lip
+	collision3,213,154,226,174,hand
+	collision4,82,238,168,276,foot
+	collision5,235,230,259,266,hip
+	collision6,10,239,66,289,leg
+	collision7,128,328,184,378,leg
+	collision8,140,272,180,324,foot
+	collision9,208,201,225,220,hand
+
+}
+
+surface6107
+{
+	element0,overlay,surface6000.png,0,0
+	element1,overlay,surface1017.png,205,65
+
+	collision0,202,45,275,70,head
+	collision1,207,82,229,106,face
+	collision2,212,111,217,118,lip
+	collision3,213,154,226,174,hand
+	collision4,82,238,168,276,foot
+	collision5,235,230,259,266,hip
+	collision6,10,239,66,289,leg
+	collision7,128,328,184,378,leg
+	collision8,140,272,180,324,foot
+	collision9,208,201,225,220,hand
+
+}
+
+surface6120
+{
+	element0,overlay,surface6000.png,0,0
+	element1,overlay,surface1020.png,205,65
+
+	collision0,202,45,275,70,head
+	collision1,207,82,229,106,face
+	collision2,212,111,217,118,lip
+	collision3,213,154,226,174,hand
+	collision4,82,238,168,276,foot
+	collision5,235,230,259,266,hip
+	collision6,10,239,66,289,leg
+	collision7,128,328,184,378,leg
+	collision8,140,272,180,324,foot
+	collision9,208,201,225,220,hand
+
+}
+
+surface7000
+{
+	element0,overlay,surface7000.png,0,0
+
+	collision0,202,45,275,70,head
+	collision1,207,82,229,106,face
+	collision2,212,111,217,118,lip
+	collision3,213,152,226,172,hand
+	collision4,116,268,172,318,foot
+	collision5,235,230,259,266,hip
+	collision6,84,347,140,397,leg
+	collision7,148,332,204,382,leg
+	collision8,208,202,224,222,hand
+
+	animation0.interval,never
+	animation0.pattern0,overlay,1006,80,205,65
+	animation0.pattern1,overlay,-1,80,0,0
+
+	animation1.interval,never
+	animation1.pattern0,overlay,1006,0,205,65
+	animation1.pattern1,overlay,-1,200,0,0
+
+	animation2.interval,rarely
+	animation2.pattern0,alternativestart,(0,1)
+
+}
+
+surface7001
+{
+	element0,overlay,surface7000.png,0,0
+	element1,overlay,surface1001.png,205,65
+
+	collision0,202,45,275,70,head
+	collision1,207,82,229,106,face
+	collision2,212,111,217,118,lip
+	collision3,213,152,226,172,hand
+	collision4,116,268,172,318,foot
+	collision5,235,230,259,266,hip
+	collision6,84,347,140,397,leg
+	collision7,148,332,204,382,leg
+	collision8,208,202,224,222,hand
+
+}
+
+surface7002
+{
+	element0,overlay,surface7000.png,0,0
+	element1,overlay,surface1002.png,205,65
+
+	collision0,202,45,275,70,head
+	collision1,207,82,229,106,face
+	collision2,212,111,217,118,lip
+	collision3,213,152,226,172,hand
+	collision4,116,268,172,318,foot
+	collision5,235,230,259,266,hip
+	collision6,84,347,140,397,leg
+	collision7,148,332,204,382,leg
+	collision8,208,202,224,222,hand
+
+}
+
+surface7003
+{
+	element0,overlay,surface7000.png,0,0
+	element1,overlay,surface1003.png,205,65
+
+	collision0,202,45,275,70,head
+	collision1,207,82,229,106,face
+	collision2,212,111,217,118,lip
+	collision3,213,152,226,172,hand
+	collision4,116,268,172,318,foot
+	collision5,235,230,259,266,hip
+	collision6,84,347,140,397,leg
+	collision7,148,332,204,382,leg
+	collision8,208,202,224,222,hand
+
+}
+
+surface7005
+{
+	element0,overlay,surface7000.png,0,0
+	element1,overlay,surface1005.png,205,65
+
+	collision0,202,45,275,70,head
+	collision1,207,82,229,106,face
+	collision2,212,111,217,118,lip
+	collision3,213,152,226,172,hand
+	collision4,116,268,172,318,foot
+	collision5,235,230,259,266,hip
+	collision6,84,347,140,397,leg
+	collision7,148,332,204,382,leg
+	collision8,208,202,224,222,hand
+
+}
+
+surface7006
+{
+	element0,overlay,surface7000.png,0,0
+	element1,overlay,surface1006.png,205,65
+
+	collision0,202,45,275,70,head
+	collision1,207,82,229,106,face
+	collision2,212,111,217,118,lip
+	collision3,213,152,226,172,hand
+	collision4,116,268,172,318,foot
+	collision5,235,230,259,266,hip
+	collision6,84,347,140,397,leg
+	collision7,148,332,204,382,leg
+	collision8,208,202,224,222,hand
+
+}
+
+surface7007
+{
+	element0,overlay,surface7000.png,0,0
+	element1,overlay,surface1007.png,205,65
+
+	collision0,202,45,275,70,head
+	collision1,207,82,229,106,face
+	collision2,212,111,217,118,lip
+	collision3,213,152,226,172,hand
+	collision4,116,268,172,318,foot
+	collision5,235,230,259,266,hip
+	collision6,84,347,140,397,leg
+	collision7,148,332,204,382,leg
+	collision8,208,202,224,222,hand
+
+}
+
+surface7100
+{
+	element0,overlay,surface7000.png,0,0
+	element1,overlay,surface1010.png,205,65
+
+	collision0,202,45,275,70,head
+	collision1,207,82,229,106,face
+	collision2,212,111,217,118,lip
+	collision3,213,152,226,172,hand
+	collision4,116,268,172,318,foot
+	collision5,235,230,259,266,hip
+	collision6,84,347,140,397,leg
+	collision7,148,332,204,382,leg
+	collision8,208,202,224,222,hand
+
+	animation0.interval,never
+	animation0.pattern0,overlay,1006,80,205,65
+	animation0.pattern1,overlay,-1,80,0,0
+
+	animation1.interval,never
+	animation1.pattern0,overlay,1006,0,205,65
+	animation1.pattern1,overlay,-1,200,0,0
+
+	animation2.interval,rarely
+	animation2.pattern0,alternativestart,(0,1)
+
+}
+
+surface7101
+{
+	element0,overlay,surface7000.png,0,0
+	element1,overlay,surface1011.png,205,65
+
+	collision0,202,45,275,70,head
+	collision1,207,82,229,106,face
+	collision2,212,111,217,118,lip
+	collision3,213,152,226,172,hand
+	collision4,116,268,172,318,foot
+	collision5,235,230,259,266,hip
+	collision6,84,347,140,397,leg
+	collision7,148,332,204,382,leg
+	collision8,208,202,224,222,hand
+
+}
+
+surface7102
+{
+	element0,overlay,surface7000.png,0,0
+	element1,overlay,surface1012.png,205,65
+
+	collision0,202,45,275,70,head
+	collision1,207,82,229,106,face
+	collision2,212,111,217,118,lip
+	collision3,213,152,226,172,hand
+	collision4,116,268,172,318,foot
+	collision5,235,230,259,266,hip
+	collision6,84,347,140,397,leg
+	collision7,148,332,204,382,leg
+	collision8,208,202,224,222,hand
+
+}
+
+surface7103
+{
+	element0,overlay,surface7000.png,0,0
+	element1,overlay,surface1013.png,205,65
+
+	collision0,202,45,275,70,head
+	collision1,207,82,229,106,face
+	collision2,212,111,217,118,lip
+	collision3,213,152,226,172,hand
+	collision4,116,268,172,318,foot
+	collision5,235,230,259,266,hip
+	collision6,84,347,140,397,leg
+	collision7,148,332,204,382,leg
+	collision8,208,202,224,222,hand
+
+}
+
+surface7105
+{
+	element0,overlay,surface7000.png,0,0
+	element1,overlay,surface1015.png,205,65
+
+	collision0,202,45,275,70,head
+	collision1,207,82,229,106,face
+	collision2,212,111,217,118,lip
+	collision3,213,152,226,172,hand
+	collision4,116,268,172,318,foot
+	collision5,235,230,259,266,hip
+	collision6,84,347,140,397,leg
+	collision7,148,332,204,382,leg
+	collision8,208,202,224,222,hand
+
+}
+
+surface7107
+{
+	element0,overlay,surface7000.png,0,0
+	element1,overlay,surface1017.png,205,65
+
+	collision0,202,45,275,70,head
+	collision1,207,82,229,106,face
+	collision2,212,111,217,118,lip
+	collision3,213,152,226,172,hand
+	collision4,116,268,172,318,foot
+	collision5,235,230,259,266,hip
+	collision6,84,347,140,397,leg
+	collision7,148,332,204,382,leg
+	collision8,208,202,224,222,hand
+
+}
+
+surface7120
+{
+	element0,overlay,surface7000.png,0,0
+	element1,overlay,surface1020.png,205,65
+
+	collision0,202,45,275,70,head
+	collision1,207,82,229,106,face
+	collision2,212,111,217,118,lip
+	collision3,213,152,226,172,hand
+	collision4,116,268,172,318,foot
+	collision5,235,230,259,266,hip
+	collision6,84,347,140,397,leg
+	collision7,148,332,204,382,leg
+	collision8,208,202,224,222,hand
+
+}
+
+surface9000
+{
+	element0,overlay,surface9000.png,0,0
+
+	collision0,107,112,180,137,head
+	collision1,143,152,165,176,face
+	collision2,187,170,200,190,hand
+	collision3,121,264,177,314,foot
+	collision4,235,230,259,266,hip
+	collision5,84,347,140,397,leg
+	collision6,148,332,204,382,leg
+
+	animation0.interval,never
+	animation0.pattern0,overlay,1166,50,120,145
+	animation0.pattern1,overlay,1106,50,120,145
+	animation0.pattern2,overlay,-1,50,0,0
+
+	animation1.interval,never
+	animation1.pattern0,overlay,1166,50,120,145
+	animation1.pattern1,overlay,1106,50,120,145
+	animation1.pattern2,overlay,-1,200,0,0
+
+	animation2.interval,rarely
+	animation2.pattern0,alternativestart,(0,1)
+
+}
+
+surface9003
+{
+	element0,overlay,surface9000.png,0,0
+	element1,overlay,surface1103.png,120,145
+
+	collision0,107,112,180,137,head
+	collision1,143,152,165,176,face
+	collision2,187,170,200,190,hand
+	collision3,121,264,177,314,foot
+	collision4,235,230,259,266,hip
+	collision5,84,347,140,397,leg
+	collision6,148,332,204,382,leg
+
+}
+
+surface9006
+{
+	element0,overlay,surface9000.png,0,0
+	element1,overlay,surface1106.png,120,145
+
+	collision0,107,112,180,137,head
+	collision1,143,152,165,176,face
+	collision2,187,170,200,190,hand
+	collision3,121,264,177,314,foot
+	collision4,235,230,259,266,hip
+	collision5,84,347,140,397,leg
+	collision6,148,332,204,382,leg
+
+}
+
+surface9063
+{
+	element0,overlay,surface9000.png,0,0
+	element1,overlay,surface1163.png,120,145
+
+	collision0,107,112,180,137,head
+	collision1,143,152,165,176,face
+	collision2,187,170,200,190,hand
+	collision3,121,264,177,314,foot
+	collision4,235,230,259,266,hip
+	collision5,84,347,140,397,leg
+	collision6,148,332,204,382,leg
+
+}
+
+surface9066
+{
+	element0,overlay,surface9000.png,0,0
+	element1,overlay,surface1166.png,120,145
+
+	collision0,107,112,180,137,head
+	collision1,143,152,165,176,face
+	collision2,187,170,200,190,hand
+	collision3,121,264,177,314,foot
+	collision4,235,230,259,266,hip
+	collision5,84,347,140,397,leg
+	collision6,148,332,204,382,leg
 
 }
 
