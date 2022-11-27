@@ -228,10 +228,10 @@ InputUsername
 //---- Web拍手
 Menu_WEBCLAP{
 	"\0\s[0]?\w9\n/
-	\![open,inputbox,InputWebclap,-1,バグ報告などどうぞ（最大200字）]\e"
+	\![open,inputbox,OnInputWebclap,-1,バグ報告などどうぞ（最大200字）]\e"
 }
 
-InputWebclap
+OnInputWebclap
 {
 	"\0\s[0]\![execute,http-post,https://blankrune.sakura.ne.jp/patipati/index.cgi,--param-charset=Shift_JIS"
 	--
@@ -239,7 +239,7 @@ InputWebclap
 		",--param=com=" + reference[0] + "（創者の憂鬱）"
 	}
 	--
-	",--async=WebClap]"
+	",--async=patipati]"
 	--
 	"?\1\s[10]（Info:送信完了。）\w9\e"
 }
