@@ -1,0 +1,11 @@
+// 説明：オフライン専用
+ExplainOfflineTalk : nonoverlap {
+	parallel aryExplainOfflineTalk
+}
+
+aryExplainOfflineTalk : array
+{
+	'\1\s[10](Info:瞬子は画面を指した。)\w9\n/
+	\0\s[0]キャラクターの人格データ「ゴースト」、キャラクターの立ち絵「シェル」、それらを動かす「ベースウェア」の3種類でこのデスクトップマスコットは動いてるの。\e'
+
+}

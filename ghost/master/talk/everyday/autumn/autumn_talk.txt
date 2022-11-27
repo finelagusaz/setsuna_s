@@ -1,0 +1,16 @@
+// 日常：秋
+DayAutumnTalk : nonoverlap {
+	parallel aryDayAutumnTalk
+}
+
+aryDayAutumnTalk : array
+{
+	'\0\s[0]秋の夜長は創作に限るわ。\e'
+	'\0\s[0]空、\w4高くなったと思わない?\w9\n/
+	秋の空よね。\w9\n/
+	\s[6]高く青い……。\e'
+	'\0\s[0]秋は進みが良いの。\w9\n/
+	\s[5]創作に良い季節ね。\e'
+	'\0\s[5]モンブランのクレープ、\w4作ってみようかな。\w9\n/
+	せっかく、\w4レシピも見つけたことだし。\e'
+}

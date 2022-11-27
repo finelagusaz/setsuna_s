@@ -1,0 +1,11 @@
+// 深夜トーク
+ImpressionNightTalk : nonoverlap {
+	parallel aryImpressionNightTalk
+}
+
+aryImpressionNightTalk : array
+{
+	'\0\s[0]ゴーストに向いている傾向はあると思うの。\w9\n/
+	あまりにも人らしい傾向の子は向いてないわ。\w9\n/
+	\s[5]深夜に起動しても笑顔で人を迎えるとか非人間的な要素でしょう?\e'
+}

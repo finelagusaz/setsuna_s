@@ -1,0 +1,12 @@
+// 日常:夏：夜
+DaySummerNgihtTalk : nonoverlap {
+	parallel aryDaySummerNgihtTalk
+}
+
+aryDaySummerNgihtTalk : array
+{
+	'\0\s[0]…\w4…\w4花火の音、\w4かな?\w9\n/
+	\s[6]すごい遠くから聞こえる。\e'
+	'\0\s[0]…\w4…\w4バイクの音、\w4うるさいね。\w9\n/
+	\s[2003]どうしてあんなことするのかな。\e'
+}
