@@ -1,17 +1,17 @@
 charset,UTF-8
 
-name,はろーYAYAわーるど
+name,創者の憂鬱
 type,ghost
 
-sakura.name,紺野ややめ
-kero.name,マック朗
+sakura.name,瞬子
+kero.name,blank
 
 sstp.allowunspecifiedsend,1
 
-icon,icon.ico
+icon,setsuna.ico
 
 shiori,yaya.dll
 
-craftman,seibihan
-craftmanw,整備班
-craftmanurl,http://ms.shillest.net/yayame.xhtml
+craftman,Fine Lagusaz
+craftmanw,Fine Lagusaz
+craftmanurl,https://blankrune.sakura.ne.jp/
