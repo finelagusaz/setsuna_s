@@ -7,7 +7,8 @@
 //******************************************************************************
 //こちらから話しかける
 //******************************************************************************
-
+//当面は使わないのでコメントアウト
+/*
 //この関数は現状メニューから呼ばれます
 StartCommunicate
 {
@@ -31,6 +32,7 @@ TalkToOther{
 TalkToNobody{
 	"\0\s[0]だれもいないよ。\1\s[10]静かなもんだ。"
 }
+*/
 
 
 //******************************************************************************
@@ -47,6 +49,7 @@ OnCommunicate
 		//---- ユーザーからの話しかけ
 		ReplyToUser
 	}
+	/*
 	else
 	{
 		//---- ゴーストからの話しかけ
@@ -54,6 +57,7 @@ OnCommunicate
 		//yaya_tmpl_utilにあります。
 		AYATEMPLATE.ExecuteReplyToTalk(reference[0])
 	}
+	*/
 }
 
 //------------------------------------------------------------------------------
@@ -64,7 +68,7 @@ ReplyToUser
 	if "名前" _in_ reference[1] && "覚えて" _in_ reference[1]
 	{
 		//---- ユーザー名入力開始
-		"\0\s[0]いいよ、なんていう名前なの、%(username)？\e"
+		"\0\s[0]なんて名前なの?\e"
 		teachusername = 1
 	}
 	else
@@ -74,7 +78,7 @@ ReplyToUser
 		{
 			//---- 直前が「名前覚えて」だったので名前を覚える
 			username = reference[1]
-			"\0\s[0]%(username)、ね。わかりました。\e"
+			"\0\s[0]%usernameさん、\w4ね。\e"
 			teachusername = 0
 		}
 		else
@@ -90,29 +94,108 @@ ReplyToUser
 //------------------------------------------------------------------------------
 TalkToUser
 {
-	if "こんにちは" _in_ reference[1]
-	{
-		"\0\s[0]こんにちはっ。\e"
-	}
-	elseif "好き" _in_ reference[1] || "愛し" _in_ reference[1]
-	{
-		"\0\s[0]ありがとうございます。\nわたしも%(username)のこと‥‥\w9、好きかも\w5‥\w5‥。\e"
-	}
-	elseif "ややめ" _in_ reference[1] && "好物" _in_ reference[1]
-	{
-		"\0\s[0]わたしの好きなたべものはねー、レーズンがいーっぱい入ったバターパンなの。/
-			\w5\1\s[10]おれは%(food)がいーっぱい入った餃子だな。\e"
-	}
-	else
-	{
-		"\0\s[0]なんて言いました？\e"
+	case reference[1] {
+		when "こんにちは" {
+			"\0\s[5]こんにちは。\e"
+		}
+		when "おはよ" {
+			"\0\s[5]おはよう。\e"
+			"\0\s[0]おはよう。\e"
+		}
+		when "好き","愛し" {
+			if touch_head >= 50 {
+				"\0\s[2]\w9\w9\n/
+				\s[1]そ、\w4そういう台詞は、\w4もっと、\w4雰囲気作ってから\w4…\w4…。\e"
+				"\0\s[1]か、\w4からかわないで\w4…\w4…。\e"
+				"\0\s[1]…\w4…\w4なんて返せばいいのか、\w4わからないよ。\e"
+				"\0\s[1]わ、\w4わたしも\w4…\w4…\w4そう、\w4だから。\e"
+			}
+			else {
+				"\0\s[2]!?\e"
+			}
+		}
+		when "おめでとう" {
+			"\0\s[5]ありがとう。\e"
+		}
+		when "こんばんは","今晩は","こんばんわ" {
+			"\0\s[5]こんばんは。\e"
+		}
+		when "お腹減った","小腹が","何か食べたい" {
+			"\0\s[0]ちょっと待っててね。\w9\s[-1]\w9\w9\w9\w9\w9\n"
+			--
+			if modeonline == 1 {
+				"\0\s[0]ギャップ酔いがちょっと怖いわ。\w9\w9\n/
+				\s[5]きっと、\w4大丈夫だと思うけれど。"
+			}
+			--
+			"\s[5]もらい物のお煎餅があったからそれと、\w4お茶。\w9\n/
+			お茶は熱いから気をつけて。"
+			"\s[0]クッキーと紅茶で良いかしら?\w9\n/
+			\s[5]そろそろ、\w4何か買ってこないとね。"
+			"\s[5]おにぎり作って来たわ。\w9\n/
+			何も入ってない塩おにぎりだけど。\w9\n/
+			それと、\w4お茶。"
+			"\0\s[0]ハニートーストと紅茶。\w9\n/
+			\s[5]おいしいよ。"
+			"\0\s[0]お茶漬け作ってもって来たよ。\w9\n/
+			\s[5]鮭を解して乗せてみたの。"
+			"\0\s[5]コロッケ焼いてきたの。\w9\n/
+			オーブンで温めたからさくさくしておいしいと思う。\e"
+			"\0\s[5]チョコレートケーキがあったと思うから待っててね。\w9\n/
+			\s[-1]\w9\w9\w9/
+			\s[5]お待たせ。\w4/
+			一緒に紅茶もいれてきたよ。\e"
+			--
+			"\e"
+		}
+		when "ありがとう","感謝" {
+			"\s[0]どういたしまして。\e"
+		}
+		when "ごちそうさま","ご馳走様","御馳走様","ご馳走さま"{
+			"\s[5]お粗末様でした。\e"
+		}
+		when "元気?" {
+			"\0\s[0]ん?\w9\n/
+			そうね、\w4元気かな。\e"
+			"\0\s[5]おかげさまで。\e"
+		}
+		when "おやすみなさい","おやすみ","寝る" {
+			"\0\s[5]おやすみなさい。\w9\n/
+			良い夢を。\w9\w9\w9\-\e"
+			"\0\s[0]寝るの?\w9\w9\n/
+			おやすみなさい、\w4良い夜を。\w9\w9\w9\-\e"
+			"\0\s[0]おやすみなさい。\w9\w9\n/
+			\s[5]また、\w4明日。\w9\w9\w9\-\e"
+		}
+		when "about:talk" {
+			"\0\s[0]\b[2]\_q/
+			mode online: %ARRAYSIZE(aryOnlineTalk)\n/
+			オフライン限定 雑感: %ARRAYSIZE(aryImpressionOfflineTalk)\n/
+			オフライン限定 説明: %ARRAYSIZE(aryExplainOfflineTalk)\n/
+			オフライン限定 日常: %ARRAYSIZE(aryDayOfflineTalk)\n/
+			夜 雑感: %ARRAYSIZE(aryImpressionNightTalk)\n/
+			雑感: %ARRAYSIZE(aryImpressionTalk)\n/
+			説明: %ARRAYSIZE(aryExplainTalk)\n/
+			夏 日常: %ARRAYSIZE(aryDaySummerTalk)\n/
+			秋 日常: %ARRAYSIZE(aryDayAutumnTalk)\n/
+			冬 日常: %ARRAYSIZE(aryDayWinterTalk)\n/
+			冬 夜 日常: %ARRAYSIZE(aryDayWinterNgihtTalk)\n/
+			日常 %ARRAYSIZE(aryDayTalk)\n/
+			合計: %(ARRAYSIZE(aryOnlineTalk) + ARRAYSIZE(aryImpressionOfflineTalk) + ARRAYSIZE(aryExplainOfflineTalk) + ARRAYSIZE(aryDayOfflineTalk) + ARRAYSIZE(aryImpressionNightTalk) + ARRAYSIZE(aryImpressionTalk) + ARRAYSIZE(aryExplainTalk) + ARRAYSIZE(aryDaySummerTalk) + ARRAYSIZE(aryDayAutumnTalk) + ARRAYSIZE(aryDayWinterTalk) + ARRAYSIZE(aryDayWinterNgihtTalk) + ARRAYSIZE(aryDayTalk))\e"
+		}
+		others {
+			"\0\s[2000]?\e"
+			"\0\s[2000]えっと?\e"
+			"\0\s[2000]…\w4…\w4ごめんなさい。\e"
+		}
 	}
 }
 
 //------------------------------------------------------------------------------
 //ゴーストからの話しかけ
 //------------------------------------------------------------------------------
-
+//当面使わないのでコメントアウト
+/*
 //エミリから話しかけられた
 ReplyTo_Emily{
 	res_reference0=reference[0]	//さらに相手に話しかける
@@ -141,4 +224,4 @@ ReplyToOther{
 		"\0\s[0]はい？\e"
 	}
 }
-
+*/
