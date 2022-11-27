@@ -239,7 +239,7 @@ OnInputWebclap
 		",--param=com=" + reference[0] + "（創者の憂鬱）"
 	}
 	--
-	",--async=patipati]"
+	",--nofile=index.cgi]"
 	--
-	"?\1\s[10]（Info:送信完了。）\w9\e"
+	"\1\s[10]（Info:送信完了。）\w9\e"
 }
