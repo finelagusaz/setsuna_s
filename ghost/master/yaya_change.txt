@@ -72,6 +72,7 @@ OnGhostChanged_カシス
 	\s[6]ううん、\w4わかってるけどね。\w9\n/
 	どうしても……。\e"
 }
+
 //呼び出し完了
 OnGhostCallComplete_カシス
 {
