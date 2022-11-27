@@ -143,7 +143,9 @@ Menu_WEIGHTCONTROL
 	"\0\s[0]聞き取りにくかったかしら?"
 	--
 	AYATEMPLATE.MenuItem("早く","Menu_WCFAST")
+	--
 	AYATEMPLATE.MenuItem("普通","Menu_WCNORMAL")
+	--
 	AYATEMPLATE.MenuItem("遅く","Menu_WCSLOW")
 	--
 	AYATEMPLATE.MenuItem("戻る","OpenMenu",150)
