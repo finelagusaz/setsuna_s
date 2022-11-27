@@ -1,4 +1,4 @@
 charset,UTF-8
 type,ghost
-name,はろーYAYAワールド
-directory,konnoyayame
+name,創者の憂鬱
+directory,setsuna_s
