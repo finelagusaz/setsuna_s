@@ -17,10 +17,10 @@ ghost/master/system/yaya_shiori3.dic
 ghost/master/system/yaya.txt
 ghost/master/yaya_config.txt
 ghost/master/aya_aitalk.dic
-ghost/master/aya_apprication.dic
+ghost/master/aya_aprication.dic
 ghost/master/aya_bootend.dic
-ghsot/master/aya_change.dic
-ghost/master/aya_communication.dic
+ghost/master/aya_change.dic
+ghost/master/aya_communicate.dic
 ghost/master/aya_etc.dic
 ghost/master/aya_menu.dic
 ghost/master/aya_mouse_core.dic
